@@ -61,7 +61,6 @@ body {
   width: 250px;
   height: 230px;
   border-radius: 50%;
-  filter: sepia(20%);
   object-fit: cover;
 }
 
