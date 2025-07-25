@@ -1,0 +1,120 @@
+@media only screen and (max-width: 768px) {
+  .leftSide {
+    order: 1;
+  }
+
+  .rightSide {
+    padding-top: 20px;
+  }
+
+  .myself-baner {
+    padding: 0 15px 20px;
+    flex-direction: column;
+  }
+
+  .myImage img {
+    border-radius: 3%;
+  }
+
+  .myHeadline {
+    width: 100%;
+  }
+
+  .services-content {
+    grid-template-columns: repeat(1, 500px);
+  }
+
+  .user-input-data {
+    flex-direction: column;
+  }
+
+  .user-info,
+  .user-comment {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .services-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .rightSide {
+    padding-top: 20px;
+    align-self: center;
+  }
+
+  .social-link ul {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .social-link ul {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .social-link ul li {
+    margin: 5px 10px;
+  }
+
+  .social-link ul li:first-child {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .myImage {
+    width: 100%;
+  }
+
+  .myImage img {
+    width: 100%;
+  }
+}
+
+/* This code is top menu resposive mobail */
+
+@media only screen and (max-width: 768px) {
+  .mobailMenu {
+    display: block;
+    padding-right: 10px;
+  }
+
+  .navication {
+    padding: 10px 0 10px 0;
+  }
+
+  .logo {
+    padding-left: 10px;
+  }
+
+  nav.menu {
+    display: none;
+    flex-basis: 100%;
+    margin: 10px 0 0 0;
+    border-top: 1px solid white;
+  }
+
+  ul.menu-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  ul.menu-item li {
+    width: 100%;
+    margin: 5px 0 !important;
+    padding: 0 10px;
+  }
+
+  ul.menu-item li:first-child {
+    margin-top: 0;
+  }
+
+  ul.menu-item li a::before {
+    background-color: white;
+  }
+}
